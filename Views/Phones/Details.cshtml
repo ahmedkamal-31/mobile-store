@@ -1,0 +1,91 @@
+@model PhoneDetailViewModel
+@{ ViewData["Title"] = Model.Phone.Name; var p = Model.Phone;
+   decimal disc = p.OldPrice.HasValue && p.OldPrice>0 ? Math.Round((1-p.Price/p.OldPrice.Value)*100) : 0; }
+
+<div class="container py-5">
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb small">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Phones" asp-action="Index">Phones</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Phones" asp-action="Index" asp-route-brandId="@p.BrandId">@p.Brand?.Name</a></li>
+            <li class="breadcrumb-item active">@p.Name</li>
+        </ol>
+    </nav>
+
+    <div class="row g-5">
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm p-4 text-center">
+                @if (!string.IsNullOrEmpty(p.ImageUrl))
+                { <img src="@p.ImageUrl" alt="@p.Name" style="max-height:300px;object-fit:contain;" /> }
+                else { <span style="font-size:8rem;">📱</span> }
+            </div>
+        </div>
+        <div class="col-md-7">
+            <span class="badge bg-primary bg-opacity-10 text-primary mb-2">@p.Brand?.Name</span>
+            <span class="badge bg-info bg-opacity-10 text-info ms-1 mb-2">@p.Condition</span>
+            <h1 class="h3 fw-bold mb-2">@p.Name</h1>
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <span class="h4 fw-bold text-primary mb-0">EGP @p.Price.ToString("N0")</span>
+                @if (p.OldPrice.HasValue) { <span class="text-muted text-decoration-line-through">@p.OldPrice.Value.ToString("N0")</span> <span class="badge bg-danger">-@disc%</span> }
+            </div>
+            @if (!string.IsNullOrEmpty(p.Description)) { <p class="text-muted mb-4">@p.Description</p> }
+
+            <div class="row g-2 mb-4">
+                @foreach (var spec in new[]{($"{p.RAM} GB","RAM"),($"{p.Storage} GB","Storage"),($"{p.ScreenSize}\"","Screen"),($"{p.Battery} mAh","Battery")})
+                {
+                    <div class="col-6 col-sm-3"><div class="bg-light rounded-3 p-2 text-center"><div class="fw-bold small">@spec.Item1</div><div class="text-muted" style="font-size:11px;">@spec.Item2</div></div></div>
+                }
+                @if (!string.IsNullOrEmpty(p.Camera))
+                { <div class="col-6 col-sm-4"><div class="bg-light rounded-3 p-2 text-center"><div class="fw-bold" style="font-size:12px;">@p.Camera</div><div class="text-muted" style="font-size:11px;">Camera</div></div></div> }
+                @if (!string.IsNullOrEmpty(p.Network))
+                { <div class="col-6 col-sm-4"><div class="bg-light rounded-3 p-2 text-center"><div class="fw-bold small">@p.Network</div><div class="text-muted" style="font-size:11px;">Network</div></div></div> }
+            </div>
+
+            @if (p.Seller != null && !string.IsNullOrEmpty(p.Seller.ShopAddress))
+            { <p class="small text-muted mb-1"><i class="bi bi-shop me-1"></i><strong>Sold by:</strong> @p.Seller.ShopAddress</p> }
+            @if (!string.IsNullOrEmpty(p.Processor)) { <p class="small text-muted mb-1"><strong>Processor:</strong> @p.Processor</p> }
+            @if (!string.IsNullOrEmpty(p.OS)) { <p class="small text-muted mb-3"><strong>OS:</strong> @p.OS</p> }
+
+            @if (p.Stock == 0)
+            { <div class="alert alert-danger py-2 small"><i class="bi bi-x-circle me-1"></i><strong>Out of Stock</strong></div> }
+            else if (p.Stock <= 5)
+            { <div class="alert alert-warning py-2 small"><i class="bi bi-exclamation-triangle me-1"></i>Only <strong>@p.Stock</strong> left in stock!</div> }
+
+            <div class="d-flex gap-2 flex-wrap mt-3">
+                @if (User.Identity?.IsAuthenticated == true && !User.IsInRole("Seller"))
+                {
+                    if (p.Stock == 0)
+                    {
+                        <button class="btn btn-secondary btn-lg px-4" disabled><i class="bi bi-bag-x me-1"></i>Out of Stock</button>
+                    }
+                    else if (!Model.IsInCart)
+                    {
+                        <form asp-action="AddToCart" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="phoneId" value="@p.Id" />
+                            <input type="hidden" name="returnUrl" value="@Url.Action("Details", "Phones", new { id = p.Slug })" />
+                            <button class="btn btn-primary btn-lg px-4"><i class="bi bi-bag-plus me-1"></i>Add to Cart</button>
+                        </form>
+                    }
+                    else { <a asp-action="Cart" class="btn btn-success btn-lg px-4"><i class="bi bi-bag-check me-1"></i>In Cart — View</a> }
+                }
+                else if (User.Identity?.IsAuthenticated != true)
+                { <a asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Url.Action("Details", "Phones", new { id = p.Slug })" class="btn btn-primary btn-lg px-4">Login to Buy</a> }
+                <a asp-action="Compare" asp-route-a="@p.Id" class="btn btn-outline-secondary btn-lg"><i class="bi bi-bar-chart-steps me-1"></i>Compare</a>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.SimilarPhones.Any())
+    {
+        <section class="mt-5 pt-4 border-top">
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div><h3 class="fw-bold mb-0">Similar Phones</h3><p class="text-muted small">You might also like</p></div>
+                <a asp-action="Recommendations" asp-route-id="@p.Id" class="btn btn-sm btn-outline-primary">More</a>
+            </div>
+            <div class="row g-3">
+                @foreach (var s in Model.SimilarPhones) { @await Html.PartialAsync("_PhoneCard", s) }
+            </div>
+        </section>
+    }
+</div>

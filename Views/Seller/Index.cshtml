@@ -1,0 +1,75 @@
+@using Microsoft.AspNetCore.Identity
+@using MobileStore.Models
+@inject UserManager<ApplicationUser> UserManager
+@{ ViewData["Title"] = "Seller Dashboard"; var seller = await UserManager.GetUserAsync(User); }
+<div class="container-fluid py-4 px-4">
+    @if (seller != null && !string.IsNullOrEmpty(seller.ShopAddress))
+    {
+        <div class="alert alert-info py-2 small mb-4"><i class="bi bi-shop me-1"></i><strong>Your Shop Address:</strong> @seller.ShopAddress</div>
+    }
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-0">Seller Dashboard</h2>
+            <p class="text-muted small mb-0">Manage your phone listings</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a asp-action="Orders" class="btn btn-outline-primary"><i class="bi bi-box-seam me-1"></i>View Orders</a>
+            <a asp-action="CreatePhone" class="btn btn-primary"><i class="bi bi-plus-circle me-1"></i>Add New Phone</a>
+        </div>
+    </div>
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-primary bg-opacity-10 rounded-3 p-3">
+                            <i class="bi bi-phone fs-4 text-primary"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">Total Phones</div>
+                            <div class="fw-bold fs-4">@ViewBag.TotalPhones</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-success bg-opacity-10 rounded-3 p-3">
+                            <i class="bi bi-check-circle fs-4 text-success"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">Active</div>
+                            <div class="fw-bold fs-4">@ViewBag.ActivePhones</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="bg-danger bg-opacity-10 rounded-3 p-3">
+                            <i class="bi bi-exclamation-triangle fs-4 text-danger"></i>
+                        </div>
+                        <div>
+                            <div class="text-muted small">Low Stock (≤5)</div>
+                            <div class="fw-bold fs-4">@ViewBag.LowStockCount</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-0 shadow-sm">
+        <div class="card-body text-center py-5">
+            <div style="font-size:3rem;">📱</div>
+            <h5 class="mt-2">Manage Your Phones</h5>
+            <p class="text-muted small">Add new phones or manage your existing listings.</p>
+            <a asp-action="Phones" class="btn btn-primary">View My Phones</a>
+        </div>
+    </div>
+</div>

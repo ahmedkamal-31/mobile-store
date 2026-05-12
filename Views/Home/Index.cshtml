@@ -1,0 +1,97 @@
+@{
+    ViewData["Title"] = "Home";
+    var featured = ViewBag.Featured as IEnumerable<MobileStore.Models.Phone> ?? new List<MobileStore.Models.Phone>();
+    var brands   = ViewBag.Brands   as IEnumerable<MobileStore.Models.Brand> ?? new List<MobileStore.Models.Brand>();
+    var latest   = ViewBag.Latest   as IEnumerable<MobileStore.Models.Phone> ?? new List<MobileStore.Models.Phone>();
+}
+
+<!-- Hero -->
+<section style="background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:4rem 0 3rem;">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+                <p class="text-primary mb-2 fw-bold" style="letter-spacing:1px;font-size:13px;">🇪🇬 EGYPT'S SMARTEST PHONE STORE</p>
+                <h1 class="display-5 fw-bold mb-3">Find Your<br>Perfect Phone.</h1>
+                <p class="text-white-50 mb-4">Compare specs, get smart recommendations — all in one place.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                    <a asp-controller="Phones" asp-action="Index" class="btn btn-primary btn-lg px-4">Shop Now</a>
+                    <a asp-controller="Phones" asp-action="Compare" class="btn btn-outline-light btn-lg px-4">
+                        <i class="bi bi-bar-chart-steps me-1"></i>Compare Phones
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-flex justify-content-center gap-3">
+                @foreach (var item in new[]{("📊","Compare","Side by side"),("🤖","Smart Rec.","AI powered"),("🚀","Fast Ship","2-5 days")})
+                {
+                    <div class="text-center p-3 rounded-3" style="background:rgba(255,255,255,0.1);min-width:100px;">
+                        <div style="font-size:2rem;">@item.Item1</div>
+                        <div class="fw-bold small mt-1">@item.Item2</div>
+                        <div style="font-size:11px;opacity:.7;">@item.Item3</div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Brands -->
+<section class="py-3 bg-white border-bottom">
+    <div class="container">
+        <div class="d-flex gap-2 align-items-center overflow-auto">
+            <span class="text-muted small fw-bold me-2 flex-shrink-0">BRANDS</span>
+            @foreach (var b in brands)
+            {
+                <a asp-controller="Phones" asp-action="Index" asp-route-brandId="@b.Id"
+                   class="btn btn-sm btn-outline-secondary rounded-pill flex-shrink-0">@b.Name</a>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Featured -->
+@if (featured.Any())
+{
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div><h2 class="fw-bold mb-0">Featured Phones</h2><p class="text-muted small">Our top picks right now</p></div>
+                <a asp-controller="Phones" asp-action="Index" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="row g-3">
+                @foreach (var p in featured) { @await Html.PartialAsync("_PhoneCard", p) }
+            </div>
+        </div>
+    </section>
+}
+
+<!-- Why Us -->
+<section class="py-5 bg-white border-top border-bottom">
+    <div class="container">
+        <div class="row g-4 text-center">
+            @foreach (var f in new[]{("🔍","Smart Compare","Compare any 2 phones side by side with full spec breakdown."),("⚡","Recommendations","Get phones similar to what you liked — instantly."),("🚀","Fast Delivery","Delivery across Egypt within 2–5 business days.")})
+            {
+                <div class="col-6 col-md-3">
+                    <div style="font-size:2.5rem;" class="mb-2">@f.Item1</div>
+                    <h6 class="fw-bold">@f.Item2</h6>
+                    <p class="text-muted small mb-0">@f.Item3</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Latest -->
+@if (latest.Any())
+{
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div><h2 class="fw-bold mb-0">Latest Arrivals</h2><p class="text-muted small">Freshly added to the store</p></div>
+                <a asp-controller="Phones" asp-action="Index" class="btn btn-sm btn-outline-primary">Browse All</a>
+            </div>
+            <div class="row g-3">
+                @foreach (var p in latest.Take(4)) { @await Html.PartialAsync("_PhoneCard", p) }
+            </div>
+        </div>
+    </section>
+}

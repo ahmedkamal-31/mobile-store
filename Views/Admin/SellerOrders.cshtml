@@ -1,0 +1,68 @@
+@model IEnumerable<MobileStore.Models.Order>
+@{
+    ViewData["Title"] = $"Orders containing {ViewBag.Seller?.FullName}'s products";
+    var seller = ViewBag.Seller as MobileStore.Models.ApplicationUser;
+}
+
+<div class="container-fluid py-4 px-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-0"><i class="bi bi-box-seam me-2"></i>@seller?.FullName's Orders</h2>
+            <p class="text-muted mb-0 small">@seller?.Email @(!string.IsNullOrEmpty(seller?.ShopAddress) ? $"| {seller.ShopAddress}" : "")</p>
+        </div>
+        <a asp-action="Sellers" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left me-1"></i>Back to Sellers</a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="card border-0 shadow-sm"><div class="card-body text-center py-5 text-muted">No orders containing this seller's products.</div></div>
+    }
+    else
+    {
+        foreach (var o in Model)
+        {
+            var sellerItems = o.Items.Where(i => i.Phone?.SellerId == seller?.Id).ToList();
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong class="fs-6">Order #@o.Id</strong>
+                        <span class="ms-2 badge @($"badge-{o.Status.ToString().ToLower()}")">@o.Status</span>
+                    </div>
+                    <small class="text-muted">@o.OrderDate.ToString("MMM dd, yyyy h:mm tt")</small>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-primary mb-2"><i class="bi bi-person me-1"></i>Customer</h6>
+                            <div class="small"><strong>Name:</strong> @o.User?.FullName</div>
+                            <div class="small"><strong>Email:</strong> @o.User?.Email</div>
+                            <div class="small"><strong>Phone:</strong> @(o.User?.PhoneNumber ?? "-")</div>
+                            <div class="small"><strong>Address:</strong> @o.ShippingAddress, @o.City</div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-success mb-2"><i class="bi bi-phone me-1"></i>This Seller's Items</h6>
+                            <table class="table table-sm mb-0">
+                                <thead class="table-light">
+                                    <tr><th>Product</th><th>Qty</th><th>Unit Price</th><th>Subtotal</th></tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in sellerItems)
+                                    {
+                                        <tr>
+                                            <td class="fw-bold small">@item.Phone?.Name</td>
+                                            <td class="small">@item.Quantity</td>
+                                            <td class="small">EGP @item.UnitPrice.ToString("N0")</td>
+                                            <td class="small fw-bold">EGP @((item.UnitPrice * item.Quantity).ToString("N0"))</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <div class="mt-2 text-end fw-bold small">Order Total: EGP @o.TotalAmount.ToString("N0")</div>
+                        </div>
+                    </div>
+                    <a asp-controller="Orders" asp-action="Details" asp-route-id="@o.Id" class="btn btn-sm btn-outline-primary">View Full Order</a>
+                </div>
+            </div>
+        }
+    }
+</div>

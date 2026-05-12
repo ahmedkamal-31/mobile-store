@@ -1,0 +1,8 @@
+@model MobileStore.Models.ErrorViewModel
+@{ ViewData["Title"] = "Error"; }
+<div class="container py-5 text-center">
+    <div style="font-size:4rem;">⚠️</div>
+    <h2 class="fw-bold mt-3">Something went wrong</h2>
+    @if (Model?.ShowRequestId == true) { <p class="text-muted small">Request ID: @Model.RequestId</p> }
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-2">Go Home</a>
+</div>

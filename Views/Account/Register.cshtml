@@ -1,0 +1,70 @@
+@model RegisterViewModel
+@{ ViewData["Title"] = "Register"; }
+<div class="container py-5" style="max-width:420px;">
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-4">
+            <h3 class="fw-bold text-center mb-1">Create account</h3>
+            <p class="text-muted text-center small mb-4">Join MobileStore today</p>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+            <form asp-action="Register" method="post">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label asp-for="FullName" class="form-label">Full Name</label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger small"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger small"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PhoneNumber" class="form-label">Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control" type="tel" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger small"></span>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label">Account Type</label>
+                    <div class="d-flex gap-3">
+                        <div class="form-check">
+                            <input asp-for="Role" type="radio" value="Customer" class="form-check-input" id="roleUser" checked onchange="toggleAddress()" />
+                            <label class="form-check-label" for="roleUser">User (Buyer)</label>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Role" type="radio" value="Seller" class="form-check-input" id="roleSeller" onchange="toggleAddress()" />
+                            <label class="form-check-label" for="roleSeller">Seller</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="shopAddressField" style="display:none;">
+                    <label asp-for="ShopAddress" class="form-label">Shop Address</label>
+                    <textarea asp-for="ShopAddress" class="form-control" rows="2" placeholder="Enter your shop address…"></textarea>
+                    <span asp-validation-for="ShopAddress" class="text-danger small"></span>
+                </div>
+                <button class="btn btn-primary w-100 btn-lg">Create Account</button>
+            </form>
+            <hr/>
+            <p class="text-center small mb-0">Already have an account? <a asp-action="Login">Login</a></p>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function toggleAddress() {
+            var sel = document.getElementById('roleSeller').checked;
+            document.getElementById('shopAddressField').style.display = sel ? '' : 'none';
+        }
+        toggleAddress();
+    </script>
+}

@@ -1,0 +1,18 @@
+@model PhoneFormViewModel
+@{ ViewData["Title"] = "Edit Phone"; }
+<div class="container-fluid py-4 px-4" style="max-width:900px;">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold mb-0">Edit Phone</h2>
+        <a asp-action="Phones" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i>Back</a>
+    </div>
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <form asp-action="EditPhone" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+                @await Html.PartialAsync("_PhoneForm", Model)
+                <div class="mt-4"><button class="btn btn-primary px-4">Save Changes</button></div>
+            </form>
+        </div>
+    </div>
+</div>

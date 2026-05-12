@@ -1,0 +1,174 @@
+@model CompareViewModel
+@{
+    ViewData["Title"] = "Compare Phones"; var a = Model.PhoneA; var b = Model.PhoneB;
+}
+
+<div style="background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:2.5rem 0;">
+    <div class="container">
+        <h1 class="h3 fw-bold mb-0">
+            <i class="bi bi-bar-chart-steps me-2"></i>Compare Phones
+        </h1>
+        <p class="text-white-50 small mb-0">Pick two phones and compare every spec side by side</p>
+    </div>
+</div>
+
+<div class="container py-4">
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
+
+                <!-- Phone A -->
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Phone A</label>
+                    <select name="a" class="form-select" onchange="this.form.submit()">
+                        <option value="">— Select —</option>
+                        @foreach (var p in Model.AllPhones)
+                        {
+                            if (a?.Id == p.Id)
+                            {
+                                <option value="@p.Id" selected>@p.Brand?.Name @p.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@p.Id">@p.Brand?.Name @p.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+
+                <div class="col-md-2 text-center">
+                    <span class="badge bg-primary fs-5 px-3 py-2">VS</span>
+                </div>
+
+                <!-- Phone B -->
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Phone B</label>
+                    <select name="b" class="form-select" onchange="this.form.submit()">
+                        <option value="">— Select —</option>
+                        @foreach (var p in Model.AllPhones)
+                        {
+                            if (b?.Id == p.Id)
+                            {
+                                <option value="@p.Id" selected>@p.Brand?.Name @p.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@p.Id">@p.Brand?.Name @p.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    @if (a == null && b == null)
+    {
+        <div class="text-center py-5 text-muted">
+            <div style="font-size:3rem;">📊</div>
+            <h5 class="mt-2">Select two phones to compare</h5>
+        </div>
+    }
+    else if (a == null || b == null)
+    {
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle me-1"></i>
+            Please select <strong>both</strong> phones.
+        </div>
+    }
+    else
+    {
+        <div class="row g-3 mb-4">
+            @foreach (var ph in new[] { a, b })
+            {
+                <div class="col-6">
+                    <div class="card border-0 shadow-sm p-3 text-center">
+                        @if (!string.IsNullOrEmpty(ph.ImageUrl))
+                        {
+                            <img src="@ph.ImageUrl" style="max-height:130px;object-fit:contain;" class="mb-2" />
+                        }
+                        else
+                        {
+                            <div style="font-size:4rem;">📱</div>
+                        }
+
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-1" style="font-size:11px;">
+                            @ph.Brand?.Name
+                        </span>
+
+                        <h5 class="fw-bold mb-1" style="font-size:15px;">@ph.Name</h5>
+                        <div class="text-primary fw-bold">EGP @ph.Price.ToString("N0")</div>
+
+                        <div class="mt-2 d-flex justify-content-center gap-2">
+                            <a asp-action="Details" asp-route-id="@ph.Slug" class="btn btn-sm btn-outline-primary">
+                                Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="card border-0 shadow-sm overflow-hidden">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width:30%">Spec</th>
+                        <th>@a.Name</th>
+                        <th>@b.Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        void Row(string label, string va, string vb, bool higherBetter = true)
+                        {
+                            bool an = double.TryParse(va.Replace(",", ""), out double na);
+                            bool bn = double.TryParse(vb.Replace(",", ""), out double nb);
+                            bool aWins = an && bn && (higherBetter ? na > nb : na < nb);
+                            bool bWins = an && bn && (higherBetter ? nb > na : nb < na);
+                            <tr>
+                                <td class="text-muted small">@label</td>
+                                <td class="@(aWins ? "text-primary fw-bold" : "")">
+                                    @va @(aWins? Html.Raw("<i class='bi bi-arrow-up-circle-fill text-success'></i>") : Html.Raw(""))
+                                </td>
+                                <td class="@(bWins ? "text-primary fw-bold" : "")">
+                                    @vb @(bWins? Html.Raw("<i class='bi bi-arrow-up-circle-fill text-success'></i>") : Html.Raw(""))
+                                </td>
+                            </tr>
+                        }
+                    }
+
+                    @{
+                        Row("Price (EGP)", a.Price.ToString("N0"), b.Price.ToString("N0"), false);
+                    }
+                    @{
+                        Row("RAM", $"{a.RAM} GB", $"{b.RAM} GB");
+                    }
+                    @{
+                        Row("Storage", $"{a.Storage} GB", $"{b.Storage} GB");
+                    }
+                    @{
+                        Row("Screen", $"{a.ScreenSize}\"", $"{b.ScreenSize}\"");
+                    }
+                    @{
+                        Row("Battery", $"{a.Battery}", $"{b.Battery}");
+                    }
+
+                    <tr><td class="text-muted small">Processor</td><td>@(a.Processor ?? "—")</td><td>@(b.Processor ?? "—")</td></tr>
+                    <tr><td class="text-muted small">Camera</td><td>@(a.Camera ?? "—")</td><td>@(b.Camera ?? "—")</td></tr>
+                    <tr><td class="text-muted small">OS</td><td>@(a.OS ?? "—")</td><td>@(b.OS ?? "—")</td></tr>
+                    <tr><td class="text-muted small">Network</td><td>@(a.Network ?? "—")</td><td>@(b.Network ?? "—")</td></tr>
+
+                    @{
+                        Row("Stock", $"{a.Stock}", $"{b.Stock}");
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <p class="text-muted small mt-2">
+            <i class="bi bi-arrow-up-circle-fill text-success"></i> = winner for that spec.
+        </p>
+    }
+</div>

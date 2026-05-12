@@ -1,0 +1,97 @@
+@model DashboardViewModel
+@{ ViewData["Title"] = "Admin Dashboard"; Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<div class="container-fluid py-4 px-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold mb-0"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h2>
+        <div class="d-flex gap-2 flex-wrap">
+            <a asp-action="Phones" class="btn btn-sm btn-outline-primary">Manage Phones</a>
+            <a asp-action="Orders" class="btn btn-sm btn-outline-secondary">Manage Orders</a>
+            <a asp-action="Sellers" class="btn btn-sm btn-outline-info">Manage Sellers</a>
+            <a asp-action="Users" class="btn btn-sm btn-outline-dark">All Users</a>
+        </div>
+    </div>
+
+    <!-- Stat Cards -->
+    <div class="row g-3 mb-4">
+        @{
+            var stats = new[]{
+                ("Total Orders",   Model.TotalOrders.ToString(),    "bi-box-seam",      "#0d6efd", "#e8f0fe"),
+                ("Pending",        Model.PendingOrders.ToString(),   "bi-clock",         "#ff9f0a", "#fff3cd"),
+                ("Total Revenue",  $"EGP {Model.TotalRevenue:N0}",   "bi-currency-dollar","#30d158","#d4edda"),
+                ("This Month",     $"EGP {Model.MonthRevenue:N0}",   "bi-graph-up",      "#5856d6", "#f0f0ff"),
+                ("Phones",         Model.TotalPhones.ToString(),     "bi-phone",         "#0d6efd", "#e8f0fe"),
+                ("Low Stock",      Model.LowStockCount.ToString(),   "bi-exclamation-triangle","#ff453a","#f8d7da"),
+                ("Users",          Model.TotalUsers.ToString(),      "bi-people",        "#5856d6", "#f0f0ff"),
+            };
+        }
+        @foreach (var s in stats)
+        {
+            <div class="col-6 col-md-4 col-xl-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="rounded-3 d-flex align-items-center justify-content-center" style="width:46px;height:46px;background:@s.Item5;color:@s.Item4;font-size:20px;">
+                                <i class="bi @s.Item3"></i>
+                            </div>
+                            <div>
+                                <div class="fw-bold fs-5" style="color:@s.Item4;">@s.Item2</div>
+                                <div class="text-muted small">@s.Item1</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="row g-4">
+        <!-- Top Phones -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-white border-bottom fw-bold py-3">🏆 Top Selling Phones</div>
+                <div class="card-body p-0">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light small"><tr><th>Phone</th><th>Sold</th><th>Revenue</th></tr></thead>
+                        <tbody>
+                            @foreach (var t in Model.TopPhones)
+                            {
+                                <tr>
+                                    <td><div class="fw-bold small">@t.Phone.Name</div><div class="text-muted" style="font-size:11px;">@t.Phone.Brand?.Name</div></td>
+                                    <td class="fw-bold">@t.TotalSold</td>
+                                    <td class="text-primary fw-bold small">EGP @t.TotalRevenue.ToString("N0")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Recent Orders -->
+        <div class="col-lg-7">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-white border-bottom d-flex justify-content-between align-items-center py-3">
+                    <span class="fw-bold">📋 Recent Orders</span>
+                    <a asp-action="Orders" class="btn btn-sm btn-outline-primary">View All</a>
+                </div>
+                <div class="card-body p-0">
+                    <table class="table table-hover mb-0 small">
+                        <thead class="table-light"><tr><th>#</th><th>Customer</th><th>Total</th><th>Status</th><th></th></tr></thead>
+                        <tbody>
+                            @foreach (var o in Model.RecentOrders)
+                            {
+                                <tr>
+                                    <td class="fw-bold">#@o.Id</td>
+                                    <td>@o.User?.FullName</td>
+                                    <td class="fw-bold">EGP @o.TotalAmount.ToString("N0")</td>
+                                    <td><span class="badge @($"badge-{o.Status.ToString().ToLower()}")">@o.Status</span></td>
+                                    <td><a asp-controller="Orders" asp-action="Details" asp-route-id="@o.Id" class="btn btn-xs btn-outline-primary btn-sm" style="font-size:11px;padding:2px 6px;">View</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

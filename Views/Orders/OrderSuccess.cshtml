@@ -1,0 +1,30 @@
+@model MobileStore.Models.Order
+@{ ViewData["Title"] = "Order Placed!"; }
+<div class="container py-5 text-center" style="max-width:500px;">
+    <div style="font-size:5rem;">🎉</div>
+    <h2 class="fw-bold mt-3">Order Placed Successfully!</h2>
+    <p class="text-muted">Your order <strong>#@Model.Id</strong> has been received. We'll contact you soon.</p>
+    <div class="card border-0 shadow-sm my-4">
+        <div class="card-body">
+            <div class="d-flex justify-content-between"><span>Order #</span><strong>@Model.Id</strong></div>
+            <div class="d-flex justify-content-between mt-2"><span>Items</span><strong>@Model.Items.Count</strong></div>
+            <div class="d-flex justify-content-between mt-2"><span>Total</span><strong class="text-primary">EGP @Model.TotalAmount.ToString("N0")</strong></div>
+        </div>
+    </div>
+    @if (Model.Items.Any(i => i.Phone?.Seller != null && !string.IsNullOrEmpty(i.Phone.Seller.ShopAddress)))
+    {
+        <div class="card border-0 shadow-sm my-4">
+            <div class="card-body">
+                <h6 class="fw-bold mb-2">Seller Addresses</h6>
+                @foreach (var item in Model.Items.Where(i => i.Phone?.Seller != null && !string.IsNullOrEmpty(i.Phone.Seller.ShopAddress)).DistinctBy(i => i.Phone.SellerId))
+                {
+                    <div class="small mb-1"><i class="bi bi-shop me-1"></i>@(item.Phone?.Seller?.ShopAddress ?? "")</div>
+                }
+            </div>
+        </div>
+    }
+    <div class="d-flex justify-content-center gap-3">
+        <a asp-controller="Orders" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary">View Order</a>
+        <a asp-controller="Phones" asp-action="Index" class="btn btn-outline-secondary">Continue Shopping</a>
+    </div>
+</div>

@@ -1,0 +1,111 @@
+@model IEnumerable<MobileStore.Models.Order>
+
+@{
+    ViewData["Title"] = "All Orders";
+    var statuses = new[] { "", "Pending", "Confirmed", "Shipped", "Delivered", "Cancelled" };
+}
+
+<div class="container-fluid py-4 px-4">
+    <h2 class="fw-bold mb-4"><i class="bi bi-eye me-2"></i>Monitor Orders</h2>
+    <p class="text-muted">Read-only view – sellers manage their own order statuses.</p>
+
+    <div class="mb-3 d-flex gap-2 flex-wrap">
+        @foreach (var s in statuses)
+        {
+            <a asp-action="Orders" asp-route-status="@s"
+               class="btn btn-sm @(ViewBag.Status == s ? "btn-primary" : "btn-outline-secondary")">
+                @(string.IsNullOrEmpty(s) ? "All" : s)
+            </a>
+        }
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="card border-0 shadow-sm"><div class="card-body text-center py-5 text-muted">No orders found.</div></div>
+    }
+    else
+    {
+        foreach (var o in Model)
+        {
+            var firstSeller = o.Items.FirstOrDefault(i => i.Phone?.Seller != null)?.Phone.Seller;
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong class="fs-6">Order #@o.Id</strong>
+                        <span class="ms-2 badge @($"badge-{o.Status.ToString().ToLower()}")">@o.Status</span>
+                    </div>
+                    <small class="text-muted">@o.OrderDate.ToString("MMM dd, yyyy h:mm tt")</small>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-primary mb-2"><i class="bi bi-person me-1"></i>Customer</h6>
+                            <div class="small"><strong>Name:</strong> @o.User?.FullName</div>
+                            <div class="small"><strong>Email:</strong> @o.User?.Email</div>
+                            <div class="small"><strong>Phone:</strong> @(o.User?.PhoneNumber ?? "-")</div>
+                            <div class="small"><strong>Address:</strong> @o.ShippingAddress, @o.City</div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-success mb-2"><i class="bi bi-shop me-1"></i>Seller</h6>
+                            @if (firstSeller != null)
+                            {
+                                <div class="small"><strong>Name:</strong> @firstSeller.FullName</div>
+                                <div class="small"><strong>Email:</strong> @firstSeller.Email</div>
+                                <div class="small"><strong>Shop:</strong> @(firstSeller.ShopAddress ?? "-")</div>
+                            }
+                            else
+                            {
+                                <div class="small text-muted">No seller (admin-seeded products)</div>
+                            }
+                        </div>
+                    </div>
+
+                    <hr />
+                    <h6 class="fw-bold mb-2"><i class="bi bi-phone me-1"></i>Items</h6>
+                    <table class="table table-sm mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Product</th>
+                                <th>Seller</th>
+                                <th>Qty</th>
+                                <th>Unit Price</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in o.Items)
+                            {
+                                <tr>
+                                    <td class="fw-bold small">@item.Phone?.Name</td>
+                                    <td class="small">@(item.Phone?.Seller?.FullName ?? "-")</td>
+                                    <td class="small">@item.Quantity</td>
+                                    <td class="small">EGP @item.UnitPrice.ToString("N0")</td>
+                                    <td class="small fw-bold">EGP @((item.UnitPrice * item.Quantity).ToString("N0"))</td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr class="fw-bold">
+                                <td colspan="4" class="text-end">Total:</td>
+                                <td>EGP @o.TotalAmount.ToString("N0")</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    @if (!string.IsNullOrEmpty(o.Notes))
+                    {
+                        <div class="mt-2 small text-muted"><strong>Notes:</strong> @o.Notes</div>
+                    }
+                </div>
+            </div>
+        }
+
+        <div class="d-flex justify-content-center gap-2 mt-3">
+            @for (int p = 1; p <= ViewBag.TotalPages; p++)
+            {
+                <a asp-action="Orders" asp-route-status="@ViewBag.Status" asp-route-page="@p"
+                   class="btn btn-sm @(p == ViewBag.Page ? "btn-primary" : "btn-outline-secondary")">@p</a>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,62 @@
+@model CheckoutViewModel
+@{ ViewData["Title"] = "Checkout"; }
+<div class="container py-5" style="max-width:800px;">
+    <h2 class="fw-bold mb-4"><i class="bi bi-credit-card me-2"></i>Checkout</h2>
+    <div class="row g-4">
+        <div class="col-md-7">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="fw-bold mb-3">Shipping Information</h5>
+                    <form asp-action="Checkout" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+                        <div class="mb-3">
+                            <label asp-for="ShippingAddress" class="form-label">Address</label>
+                            <textarea asp-for="ShippingAddress" class="form-control" rows="2"></textarea>
+                            <span asp-validation-for="ShippingAddress" class="text-danger small"></span>
+                        </div>
+                        <div class="row g-3 mb-3">
+                            <div class="col-6">
+                                <label asp-for="City" class="form-label">City</label>
+                                <input asp-for="City" class="form-control" />
+                                <span asp-validation-for="City" class="text-danger small"></span>
+                            </div>
+                            <div class="col-6">
+                                <label asp-for="Phone" class="form-label">Phone</label>
+                                <input asp-for="Phone" class="form-control" />
+                                <span asp-validation-for="Phone" class="text-danger small"></span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Notes" class="form-label">Notes (optional)</label>
+                            <textarea asp-for="Notes" class="form-control" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary w-100 btn-lg">Place Order <i class="bi bi-check-circle ms-1"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="fw-bold mb-3">Order Summary</h5>
+                    @foreach (var item in Model.Cart.Items)
+                    {
+                        <div class="mb-2 small">
+                            <div class="d-flex justify-content-between">
+                                <span>@item.Phone.Name × @item.Quantity</span>
+                                <span>EGP @((item.Phone.Price*item.Quantity).ToString("N0"))</span>
+                            </div>
+                            @if (item.Phone.Seller != null && !string.IsNullOrEmpty(item.Phone.Seller.ShopAddress))
+                            {
+                                <div class="text-muted" style="font-size:11px;"><i class="bi bi-shop me-1"></i>@item.Phone.Seller.ShopAddress</div>
+                            }
+                        </div>
+                    }
+                    <hr/>
+                    <div class="d-flex justify-content-between fw-bold"><span>Total</span><span class="text-primary">EGP @Model.Cart.Total.ToString("N0")</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

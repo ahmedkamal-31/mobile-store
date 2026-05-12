@@ -1,0 +1,175 @@
+@model PhoneListViewModel
+@{
+    ViewData["Title"] = "Browse Phones";
+}
+
+<div style="background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:2.5rem 0;">
+    <div class="container">
+        <h1 class="h3 fw-bold mb-0">Browse Phones</h1>
+        <p class="text-white-50 small mb-0">@Model.TotalCount phones available</p>
+    </div>
+</div>
+
+<div class="container py-4">
+    <div class="row g-4">
+
+        <!-- Filters -->
+        <div class="col-lg-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <form method="get">
+
+                        <h6 class="text-uppercase text-muted small fw-bold mb-3">Brands</h6>
+
+                        <div class="d-flex flex-column gap-1 mb-4">
+                            <a asp-action="Index" asp-route-sort="@Model.SortBy"
+                               class="btn btn-sm @(Model.FilterBrandId == null ? "btn-primary" : "btn-outline-secondary") text-start">All</a>
+
+                            @foreach (var b in Model.Brands)
+                            {
+                                <a asp-action="Index" asp-route-brandId="@b.Id" asp-route-sort="@Model.SortBy"
+                                   class="btn btn-sm @(Model.FilterBrandId == b.Id ? "btn-primary" : "btn-outline-secondary") text-start">@b.Name</a>
+                            }
+                        </div>
+
+                        <h6 class="text-uppercase text-muted small fw-bold mb-2">Condition</h6>
+
+                        <div class="d-flex flex-column gap-1 mb-4">
+                            <a asp-action="Index" asp-route-sort="@Model.SortBy" asp-route-brandId="@Model.FilterBrandId" asp-route-q="@Model.SearchQuery" asp-route-minPrice="@Model.MinPrice" asp-route-maxPrice="@Model.MaxPrice"
+                               class="btn btn-sm @(Model.FilterCondition == null ? "btn-primary" : "btn-outline-secondary") text-start">All</a>
+                            <a asp-action="Index" asp-route-condition="New" asp-route-sort="@Model.SortBy" asp-route-brandId="@Model.FilterBrandId" asp-route-q="@Model.SearchQuery" asp-route-minPrice="@Model.MinPrice" asp-route-maxPrice="@Model.MaxPrice"
+                               class="btn btn-sm @(Model.FilterCondition == MobileStore.Models.PhoneCondition.New ? "btn-primary" : "btn-outline-secondary") text-start">New</a>
+                            <a asp-action="Index" asp-route-condition="Used" asp-route-sort="@Model.SortBy" asp-route-brandId="@Model.FilterBrandId" asp-route-q="@Model.SearchQuery" asp-route-minPrice="@Model.MinPrice" asp-route-maxPrice="@Model.MaxPrice"
+                               class="btn btn-sm @(Model.FilterCondition == MobileStore.Models.PhoneCondition.Used ? "btn-primary" : "btn-outline-secondary") text-start">Used</a>
+                            <a asp-action="Index" asp-route-condition="LikeNew" asp-route-sort="@Model.SortBy" asp-route-brandId="@Model.FilterBrandId" asp-route-q="@Model.SearchQuery" asp-route-minPrice="@Model.MinPrice" asp-route-maxPrice="@Model.MaxPrice"
+                               class="btn btn-sm @(Model.FilterCondition == MobileStore.Models.PhoneCondition.LikeNew ? "btn-primary" : "btn-outline-secondary") text-start">Like New</a>
+                        </div>
+
+                        <h6 class="text-uppercase text-muted small fw-bold mb-2">Price (EGP)</h6>
+
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <input type="number" name="minPrice" class="form-control form-control-sm" placeholder="Min" value="@Model.MinPrice" />
+                            </div>
+                            <div class="col-6">
+                                <input type="number" name="maxPrice" class="form-control form-control-sm" placeholder="Max" value="@Model.MaxPrice" />
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="brandId" value="@Model.FilterBrandId" />
+                        <input type="hidden" name="condition" value="@Model.FilterCondition" />
+                        <input type="hidden" name="q" value="@Model.SearchQuery" />
+                        <input type="hidden" name="sort" value="@Model.SortBy" />
+
+                        <button class="btn btn-primary btn-sm w-100">Apply</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-sm w-100 mt-2">Clear</a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div class="col-lg-9">
+
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+
+                <p class="text-muted small mb-0">
+                    Showing <strong>@Model.Phones.Count()</strong> of @Model.TotalCount
+                    @if (!string.IsNullOrEmpty(Model.SearchQuery))
+                    {
+                        <span> for "<strong>@Model.SearchQuery</strong>"</span>
+                    }
+                </p>
+
+                <div class="d-flex gap-2">
+
+                    <a asp-controller="Phones" asp-action="Compare" class="btn btn-sm btn-outline-primary">
+                        <i class="bi bi-bar-chart-steps me-1"></i>Compare
+                    </a>
+
+                    <!-- ✅ FIXED DROPDOWN -->
+                    <select class="form-select form-select-sm w-auto" onchange="window.location.href=this.value">
+
+                        @if (Model.SortBy == "newest")
+                        {
+                            <option value="@Url.Action("Index", new { sort = "newest", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })" selected>Newest</option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("Index", new { sort = "newest", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })">Newest</option>
+                        }
+
+                        @if (Model.SortBy == "price_asc")
+                        {
+                            <option value="@Url.Action("Index", new { sort = "price_asc", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })" selected>Price ↑</option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("Index", new { sort = "price_asc", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })">Price ↑</option>
+                        }
+
+                        @if (Model.SortBy == "price_desc")
+                        {
+                            <option value="@Url.Action("Index", new { sort = "price_desc", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })" selected>Price ↓</option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("Index", new { sort = "price_desc", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })">Price ↓</option>
+                        }
+
+                        @if (Model.SortBy == "name")
+                        {
+                            <option value="@Url.Action("Index", new { sort = "name", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })" selected>Name</option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("Index", new { sort = "name", brandId = Model.FilterBrandId, condition = Model.FilterCondition, q = Model.SearchQuery })">Name</option>
+                        }
+
+                    </select>
+
+                </div>
+            </div>
+
+            @if (!Model.Phones.Any())
+            {
+                <div class="text-center py-5">
+                    <div style="font-size:3rem;">📭</div>
+                    <h5 class="text-muted mt-2">No phones found</h5>
+                    <a asp-action="Index" class="btn btn-primary mt-2">Clear Filters</a>
+                </div>
+            }
+            else
+            {
+                <div class="row g-3">
+                    @foreach (var p in Model.Phones)
+                    {
+                        @await Html.PartialAsync("_PhoneCard", p)
+                    }
+                </div>
+            }
+
+            @if (Model.TotalPages > 1)
+            {
+                <nav class="mt-4 d-flex justify-content-center">
+                    <ul class="pagination">
+                        @for (int i = 1; i <= Model.TotalPages; i++)
+                        {
+                            <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                                <a class="page-link"
+                                   asp-action="Index"
+                                   asp-route-page="@i"
+                                   asp-route-sort="@Model.SortBy"
+                                   asp-route-brandId="@Model.FilterBrandId"
+                                   asp-route-condition="@Model.FilterCondition"
+                                   asp-route-q="@Model.SearchQuery">@i</a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            }
+            
+        </div>
+    </div>
+</div>

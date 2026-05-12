@@ -1,0 +1,703 @@
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.Development.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.runtime.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.endpoints.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.exe
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.deps.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.runtimeconfig.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.pdb
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Core.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Identity.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Humanizer.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.CodeDom.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Memory.Data.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.AssemblyReference.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfoInputs.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfo.cs
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.CoreCompileInputs.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cs
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cs
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\bundle\Mobile Store.styles.css
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\projectbundle\Mobile Store.bundle.scp.css
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.development.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile S.F2A7313D.Up2Date
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\refint\Mobile Store.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.pdb
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.genruntimeconfig.cache
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\ref\Mobile Store.dll
+D:\CSharp\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.runtime.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.exe
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.deps.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.pdb
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Humanizer.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.Mobile Store.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.build.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\bundle\Mobile Store.styles.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\projectbundle\Mobile Store.bundle.scp.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile S.F2A7313D.Up2Date
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\refint\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.pdb
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\ref\Mobile Store.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.Development.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.runtime.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.endpoints.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.exe
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.deps.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.runtimeconfig.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.pdb
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Core.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Identity.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Humanizer.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.CodeDom.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Memory.Data.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.AssemblyReference.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfoInputs.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfo.cs
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.CoreCompileInputs.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cs
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cs
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\bundle\Mobile Store.styles.css
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\projectbundle\Mobile Store.bundle.scp.css
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.development.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile S.F2A7313D.Up2Date
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\refint\Mobile Store.dll
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.pdb
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.genruntimeconfig.cache
+D:\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\ref\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\appsettings.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.runtime.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.exe
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.deps.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.runtimeconfig.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mobile Store.pdb
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Humanizer.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.Mobile Store.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.build.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mobile Store.props
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\bundle\Mobile Store.styles.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\scopedcss\projectbundle\Mobile Store.bundle.scp.css
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile S.F2A7313D.Up2Date
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\refint\Mobile Store.dll
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.pdb
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\Mobile Store.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Desktop\New folder (3)\MobileStore_Fixed\MobileStore_Fixed\Mobile Store\obj\Debug\net8.0\ref\Mobile Store.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\appsettings.Development.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\appsettings.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.runtime.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.staticwebassets.endpoints.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.exe
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.deps.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.runtimeconfig.json
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mobile Store.pdb
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Azure.Core.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Azure.Identity.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Humanizer.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.CodeDom.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mobile Store\Mobile Store\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.AssemblyReference.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfoInputs.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.AssemblyInfo.cs
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.csproj.CoreCompileInputs.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cs
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.MvcApplicationPartsAssemblyInfo.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.RazorAssemblyInfo.cs
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\scopedcss\bundle\Mobile Store.styles.css
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\scopedcss\projectbundle\Mobile Store.bundle.scp.css
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\staticwebassets.development.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile S.F2A7313D.Up2Date
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.dll
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\refint\Mobile Store.dll
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.pdb
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\Mobile Store.genruntimeconfig.cache
+D:\Mobile Store\Mobile Store\obj\Debug\net8.0\ref\Mobile Store.dll

@@ -1,0 +1,477 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mobile Store\\Mobile Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\migrations\\20260503091304_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:migrations\\20260503091304_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\migrations\\20260508185346_addphonesellerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:migrations\\20260508185346_addphonesellerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\models\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:models\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\orders\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\orders\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\phones\\compare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\phones\\compare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\phones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\phones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\controllers\\phonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:controllers\\phonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\phones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\phones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\phones\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\phones\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\phones\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\phones\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|d:\\mobile store\\mobile store\\viewmodels\\orders\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D3F90FD-AC27-5069-1EB9-CFDDCBCFAE8C}|Mobile Store.csproj|solutionrelative:viewmodels\\orders\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 250,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Orders\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\OrderSuccess.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Orders\\OrderSuccess.cshtml",
+              "RelativeToolTip": "Views\\Orders\\OrderSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T08:43:06.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:23:20.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddItem.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Models\\AddItem.cs",
+              "RelativeDocumentMoniker": "Models\\AddItem.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Models\\AddItem.cs",
+              "RelativeToolTip": "Models\\AddItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:16:40.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:16:25.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:16:10.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260503091304_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Migrations\\20260503091304_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260503091304_InitialCreate.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Migrations\\20260503091304_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260503091304_InitialCreate.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAQwEgBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T19:36:01.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260508185346_AddPhoneSellerId.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Migrations\\20260508185346_AddPhoneSellerId.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260508185346_AddPhoneSellerId.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Migrations\\20260508185346_AddPhoneSellerId.cs",
+              "RelativeToolTip": "Migrations\\20260508185346_AddPhoneSellerId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:21:57.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T08:44:02.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Compare.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Compare.cshtml",
+              "RelativeDocumentMoniker": "Views\\Phones\\Compare.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Compare.cshtml",
+              "RelativeToolTip": "Views\\Phones\\Compare.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T08:45:17.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Phones\\Details.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Details.cshtml",
+              "RelativeToolTip": "Views\\Phones\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:25:31.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:15:00.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T08:42:03.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAwwGMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:21:57.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Phones\\Index.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Index.cshtml",
+              "RelativeToolTip": "Views\\Phones\\Index.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T08:47:31.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Phones\\Checkout.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Phones\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:09:47.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Phones\\Cart.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Phones\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Phones\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T19:57:25.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PhonesController.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Controllers\\PhonesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhonesController.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Controllers\\PhonesController.cs",
+              "RelativeToolTip": "Controllers\\PhonesController.cs",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T19:29:57.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Orders.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Orders.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAF4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T09:00:58.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:23:18.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:41:34.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:18:58.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:23:38.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:23:40.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T20:23:35.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAmwGAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:26:48.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T09:11:33.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\ViewModels\\Orders\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Orders\\CheckoutViewModel.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\ViewModels\\Orders\\CheckoutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Orders\\CheckoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T08:53:35.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mobile Store\\Mobile Store\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Mobile Store\\Mobile Store\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T08:38:50.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
