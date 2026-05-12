@@ -46,7 +46,7 @@ using (var scope = app.Services.CreateScope())
     var db          = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     // Run pending migrations automatically
-    //db.Database.Migrate();
+    db.Database.Migrate();
 
     // Seed roles
     foreach (var role in new[] { "Admin", "Seller", "Customer" })
