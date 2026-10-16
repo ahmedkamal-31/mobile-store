@@ -170,9 +170,8 @@ This project was developed to practice building a realistic e-commerce applicati
 
 **Ahmed Kamal Mohamed**
 
-Junior .NET Developer focused on:
+Junior .NET Developer focused on **C# · ASP.NET Core · MVC · Entity Framework Core · SQL Server**
 
-**C# · ASP.NET Core · MVC · Entity Framework Core · SQL Server**
-
-GitHub:
-https://github.com/ahmedkamal-31
+- GitHub: [@ahmedkamal-31](https://github.com/ahmedkamal-31)
+- LinkedIn: [ahmed-kamal](https://www.linkedin.com/in/ahmed-kamal-135b8b353/)
+- Portfolio: [portfolio-kappa-lake-83.vercel.app](https://portfolio-kappa-lake-83.vercel.app/)
