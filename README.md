@@ -2,6 +2,7 @@
 
 A full-stack mobile e-commerce web application built with **ASP.NET Core MVC**.
 The platform provides product management, seller accounts, role-based access, and a complete workflow for managing mobile phone products.
+🌐 **Live Demo:** [mobile-store](http://mobile-store.somee.com/)
 
 ## ✨ Features
 
